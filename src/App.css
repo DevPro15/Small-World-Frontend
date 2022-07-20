@@ -1,0 +1,81 @@
+/* src/App.css */
+.form {
+  box-shadow: 5px 10px 18px #888888;
+  padding: 40px;
+  border-radius: 5px;
+}
+.App {
+  display: flex;
+  justify-content: center;
+  margin-top: 3rem;
+}
+.container {
+  background-color: #36a936;
+}
+
+input {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: 1px solid #555;
+  outline: none;
+  border-radius: 5px;
+}
+
+input:focus {
+  background-color: lightblue;
+}
+.Input_direction1 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.Input_direction2 {
+  display: block;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.Input_direction3 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.message {
+  font-size: 1.2em;
+  text-align: center;
+  color: #36a936;
+}
+.button {
+  background-color: #008cba;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border: none;
+  border-radius: 5px;
+}
+.btn_center {
+  display: grid;
+  margin-top: 10px;
+  align-items: center;
+}
+.input1 {
+  margin-top: 20px;
+}
+.input2 {
+  margin-top: 20px;
+  width: 49%;
+}
+
+.Select {
+  margin-top: 10px;
+}
